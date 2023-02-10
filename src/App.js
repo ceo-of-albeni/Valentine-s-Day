@@ -1,17 +1,17 @@
 import React from "react";
-// import Routing from "./Routing";
+import Routing from "./Routing";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import UsersPage from "./page/UsersPage";
+import UserContextProvider from "./context/userContext";
 
 const App = () => {
   return (
     <div>
-      <Navbar />
-      {/* <Routing /> */}
-      <UsersPage/>
-      
-      <Footer />
+      <UserContextProvider>
+        <Navbar />
+        <Routing />
+        <Footer />
+      </UserContextProvider>
     </div>
   );
 };
