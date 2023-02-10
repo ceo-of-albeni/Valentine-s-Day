@@ -5,10 +5,10 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Form from "react-bootstrap/Form";
 import Logo from "../images/Untitled (1).svg";
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function NavScrollExample() {
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
 
   return (
     <Navbar
@@ -20,20 +20,22 @@ function NavScrollExample() {
       expand="lg">
       <Container fluid>
         <Navbar.Brand>
-          <img src={Logo} width="280" alt="" id="logo" />
+          <img
+            src={Logo}
+            width="280"
+            alt=""
+            id="logo"
+            onClick={() => navigate("/")}
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="me-auto ms-auto my-lg-0 "
             style={{ maxHeight: "100px" }}
-            navbarScroll>
-            {/* <Nav.Link id="navlink"></Nav.Link> */}
-            {/* <Nav.Link id="navlink">ABOUT</Nav.Link>
-            <Nav.Link id="navlink">PLACES</Nav.Link> */}
-          </Nav>
+            navbarScroll></Nav>
 
-          <Form className="d-flex">
+          {/* <Form className="d-flex">
             <Form.Control
               type="search"
               placeholder="Search"
@@ -46,7 +48,7 @@ function NavScrollExample() {
                 <span style={{ color: "white" }}>Search</span>
               </div>
             </div>
-          </Form>
+          </Form> */}
 
           {/* <div className="box-3">
             <div className="btn btn-three">

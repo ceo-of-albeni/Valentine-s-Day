@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import Modal from "react-bootstrap/Modal";
 import Form from "react-bootstrap/Form";
-import "../styles/loginbtn.css";
+// import "../styles/loginbtn.css";
 
 const MyModal = props => {
   const navigate = useNavigate();
