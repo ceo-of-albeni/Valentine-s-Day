@@ -1,0 +1,36 @@
+.page-item .page-link {
+  background: rgb(254, 198, 198);
+  color: rgb(252, 72, 105);
+  border-color: white;
+  border-radius: 0px !important;
+}
+.active > .page-link,
+.page-link.active {
+  z-index: 3;
+  color: white !important;
+  background-color: rgb(239, 112, 133) !important;
+  border-color: rgb(131, 8, 31) !important;
+}
+
+.disabled > .page-link,
+.page-link.active {
+  background-color: rgb(254, 198, 198) !important;
+  color: rgb(252, 72, 105) !important;
+  border-color: white !important;
+}
+
+.pagination {
+  color: white !important;
+  background-color: rgb(239, 112, 133) !important;
+}
+
+.page-link:hover {
+  color: white !important;
+  background-color: rgb(239, 112, 133) !important;
+}
+
+.page-link:focus {
+  color: white !important;
+  background-color: rgb(239, 112, 133) !important;
+  box-shadow: 0 0 0 0.25rem rgb(227, 172, 186) !important;
+}

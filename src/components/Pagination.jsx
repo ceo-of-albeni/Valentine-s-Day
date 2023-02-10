@@ -1,16 +1,16 @@
 import Pagination from 'react-bootstrap/Pagination';
-import "../styles/cards.css"
+import "../styles/pagination.css"
 
-function AdvancedExample() {
+function Page() {
   return (
-    <div>
+    <div className="Page">
       <Pagination className='mt-3'>
         <Pagination.First />
         <Pagination.Prev />
         <Pagination.Item active>{1}</Pagination.Item>
 
         <Pagination.Item>{2}</Pagination.Item>
-        <Pagination.Ellipsis />
+        <Pagination.Ellipsis disabled />
         <Pagination.Item>{9}</Pagination.Item>
         <Pagination.Item>{10}</Pagination.Item>
 
@@ -21,4 +21,4 @@ function AdvancedExample() {
   );
 }
 
-export default AdvancedExample;
+export default Page;
