@@ -1,12 +1,12 @@
 .login_btn {
-  color: rgb(246, 174, 174);
+  color: rgb(249, 83, 127);
   cursor: pointer;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 45px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 35px;
   text-decoration: none;
   background: transparent;
-  padding: 0px 26px;
+  padding: 7px 22px;
   width: 110px;
   height: 45px;
 }
@@ -14,7 +14,7 @@
 .login_btn:hover {
   text-decoration: none;
   background: #fb9b9ba0;
-  color: rgb(203, 21, 21);
+  color: rgb(166, 41, 70);
 }
 
 .login_btn {
@@ -32,15 +32,15 @@
     0 0 20px rgba(255, 255, 255, 0.2);
   outline-color: rgba(255, 255, 255, 0);
   outline-offset: 15px;
-  text-shadow: 1px 1px 2px #427388;
+  text-shadow: 1px 1px 2px #9f747f;
 }
 
 a {
   text-decoration: none;
-  color: rgb(208, 14, 47);
+  color: rgb(233, 97, 133);
   font-weight: 600;
 }
 
 a:hover {
-  color: rgb(145, 14, 14);
+  color: rgb(165, 38, 85);
 }

@@ -54,7 +54,7 @@ const HomePage = () => {
           <h1>RED HEART</h1>
           <img src={RedHeart} width="200" alt="" className="my-4" />
           <p className="hearts_p">
-            <b>"You are my Love of my Life!"<br></br></b><hr></hr>
+            <b>"You are the Love of my Life!"<br></br></b><hr></hr>
             Send this to your soulmate to make them happy and feel loved.<br></br>
             Share your emotions to spend this special day with wholesome moments.<br></br>
             Some cute messages along will make it even better!
