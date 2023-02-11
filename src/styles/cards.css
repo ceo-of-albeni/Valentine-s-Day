@@ -25,3 +25,26 @@
     rgba(188, 36, 61, 0.2) 15px 15px, rgba(188, 36, 61, 0.1) 20px 20px,
     rgba(240, 46, 170, 0.05) 25px 25px;
 }
+
+#pagination {
+  background-color: pink !important;
+  border: white 1px solid !important;
+  /* border-radius: 10px; */
+  color: palevioletred;
+  flex: 1;
+  margin: 0px 5px;
+  /* background: #dde1e7; */
+  border-radius: 3px;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+
+#pagination:hover {
+  background-color: rgb(253, 170, 183) !important;
+}
+
+.pag_.container {
+  background: #dde1e7;
+  padding: 25px;
+  border-radius: 3px;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
