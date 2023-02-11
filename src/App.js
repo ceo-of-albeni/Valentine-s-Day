@@ -6,7 +6,7 @@ import UserContextProvider from "./context/userContext";
 
 const App = () => {
   return (
-    <div>
+    <div className="d-flex flex-column min-vh-100">
       <UserContextProvider>
         <Navbar />
         <Routing />

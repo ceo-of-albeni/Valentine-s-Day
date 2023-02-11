@@ -3,7 +3,7 @@ import "../styles/footer.css";
 
 const Footer = () => {
   return (
-    <footer className="pt-2">
+    <footer className="pt-2 mt-auto">
       <div className="footer">
         <div className="d-flex flex-column align-items-center">
           <p>© 2020 Международный Университет Ала-Тоо</p>

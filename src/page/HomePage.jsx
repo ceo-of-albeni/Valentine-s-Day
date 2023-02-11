@@ -107,22 +107,6 @@ const HomePage = () => {
           </p>
         </div>
       </div>
-
-      {/* <div
-        className="d-flex flex-column align-items-center justify-content-center mt-5"
-        style={{ height: "500px", border: "4px double #b20a2c" }}>
-        <h1 className="mb-3">Wanna see hearts you've got?</h1>
-        <a
-          style={{ width: "fit-content" }}
-          className="animated-button1"
-          onClick={() => setModalShow(true)}>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          Sign In
-        </a>
-      </div> */}
     </div>
   );
 };

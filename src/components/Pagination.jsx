@@ -1,24 +1,26 @@
-import Pagination from 'react-bootstrap/Pagination';
-import "../styles/pagination.css"
+import Pagination from "react-bootstrap/Pagination";
+import "../styles/cards.css";
 
-function Page() {
+function AdvancedExample({ page, count, setPage }) {
+  let active = page;
+  let items = [];
+  for (let number = 1; number <= count; number++) {
+    items.push(
+      <Pagination.Item
+        onClick={() => setPage(number)}
+        key={number}
+        active={number === active}>
+        {number}
+      </Pagination.Item>
+    );
+  }
   return (
-    <div className="Page">
-      <Pagination className='mt-3'>
-        <Pagination.First />
-        <Pagination.Prev />
-        <Pagination.Item active>{1}</Pagination.Item>
-
-        <Pagination.Item>{2}</Pagination.Item>
-        <Pagination.Ellipsis disabled />
-        <Pagination.Item>{9}</Pagination.Item>
-        <Pagination.Item>{10}</Pagination.Item>
-
-        <Pagination.Next />
-        <Pagination.Last />
-      </Pagination>
+    <div>
+      <div>
+        <Pagination>{items}</Pagination>
+      </div>
     </div>
   );
 }
 
-export default Page;
+export default AdvancedExample;

@@ -8,6 +8,7 @@ const UsersPage = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const [search, setSearch] = useState(searchParams.get("q") || "");
   const { getUsers } = useContext(userContext);
+  const [page, setPage] = useState(1);
 
   useEffect(() => {
     setSearchParams({
@@ -37,7 +38,7 @@ const UsersPage = () => {
           </div>
         </div>
       </Form>
-      <UsersList />
+      <UsersList page={page} setPage={setPage} />
     </div>
   );
 };

@@ -1,21 +1,27 @@
 .tools-wrap .tool {
-    flex: 0 1 395px;
-    height: 25rem;
-    margin: 55px -12px 50px;
-    padding: 33px;
-    border-radius: 15px;
-    transition: .35s;
-    background-color:rgb(250, 234, 230);
-    color:rgb(179, 28, 68);
-    /*flex-grow: 0; */
-    /*flex-shrink: 1; */
-    /*flex-basis: 392px; */ }
-  
-  .tools-wrap .tool:hover {
-    border: none;
-    /* background: rgba(40, 48, 54, 0.6) url("../images/tools_blur.svg"); */
-    background: linear-gradient(rgb(254, 253, 253), rgb(248, 201, 213), rgb(253, 145, 165));
-    backdrop-filter: blur(50px);
-    transform: translateY(-20px);
-    box-shadow: rgba(188, 36, 61, 0.4) 5px 5px, rgba(188, 36, 61, 0.3) 10px 10px, rgba(188, 36, 61, 0.2) 15px 15px, rgba(188, 36, 61, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;}
-  
+  flex: 0 1 395px;
+  height: 25rem;
+  margin: 55px -12px 50px;
+  padding: 33px;
+  border-radius: 15px;
+  transition: 0.35s;
+  background-color: rgb(250, 234, 230);
+  color: rgb(179, 28, 68);
+  /*flex-grow: 0; */
+  /*flex-shrink: 1; */
+  /*flex-basis: 392px; */
+}
+
+.tools-wrap .tool:hover {
+  border: none;
+  background: linear-gradient(
+    rgb(254, 253, 253),
+    rgb(248, 201, 213),
+    rgb(253, 145, 165)
+  );
+  backdrop-filter: blur(50px);
+  transform: translateY(-20px);
+  box-shadow: rgba(188, 36, 61, 0.4) 5px 5px, rgba(188, 36, 61, 0.3) 10px 10px,
+    rgba(188, 36, 61, 0.2) 15px 15px, rgba(188, 36, 61, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+}
