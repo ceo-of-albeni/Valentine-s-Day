@@ -1,0 +1,50 @@
+.tools-wrap .tool {
+  flex: 0 1 395px;
+  height: 25rem;
+  margin: 55px -12px 50px;
+  padding: 33px;
+  border-radius: 15px;
+  transition: 0.35s;
+  background-color: rgb(250, 234, 230);
+  color: rgb(179, 28, 68);
+  /*flex-grow: 0; */
+  /*flex-shrink: 1; */
+  /*flex-basis: 392px; */
+}
+
+.tools-wrap .tool:hover {
+  border: none;
+  background: linear-gradient(
+    rgb(254, 253, 253),
+    rgb(248, 201, 213),
+    rgb(253, 145, 165)
+  );
+  backdrop-filter: blur(50px);
+  transform: translateY(-20px);
+  box-shadow: rgba(188, 36, 61, 0.4) 5px 5px, rgba(188, 36, 61, 0.3) 10px 10px,
+    rgba(188, 36, 61, 0.2) 15px 15px, rgba(188, 36, 61, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+#pagination {
+  background-color: pink !important;
+  border: white 1px solid !important;
+  /* border-radius: 10px; */
+  color: palevioletred;
+  flex: 1;
+  margin: 0px 5px;
+  /* background: #dde1e7; */
+  border-radius: 3px;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+
+#pagination:hover {
+  background-color: rgb(253, 170, 183) !important;
+}
+
+.pag_.container {
+  background: #dde1e7;
+  padding: 25px;
+  border-radius: 3px;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
