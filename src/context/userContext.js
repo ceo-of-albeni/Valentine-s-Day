@@ -1,5 +1,6 @@
 import React, { useReducer } from "react";
 import axios from "axios";
+import { useLocation } from "react-router-dom";
 
 export const userContext = React.createContext();
 
@@ -20,7 +21,9 @@ function reducer(state = INIT_STATE, action) {
 }
 
 const UserContextProvider = ({ children }) => {
-  const API = "";
+  const API = "http://localhost:8000/users";
+
+  const location = useLocation();
 
   const [state, dispatch] = useReducer(reducer, INIT_STATE);
 
@@ -32,6 +35,14 @@ const UserContextProvider = ({ children }) => {
     });
   }
 
+  async function getOneUser(id) {
+    let res = await axios(`${API}/${id}`);
+    dispatch({
+      type: "GET_ONE_USER",
+      payload: res.data,
+    });
+  }
+
   return (
     <userContext.Provider
       value={{
@@ -39,6 +50,7 @@ const UserContextProvider = ({ children }) => {
         oneUser: state.oneUser,
 
         getUsers,
+        getOneUser,
       }}>
       {children}
     </userContext.Provider>

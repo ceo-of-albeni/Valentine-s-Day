@@ -1,9 +1,8 @@
-import React, { useEffect, useContext } from "react";
+import React from "react";
 import Container from "react-bootstrap/Container";
 import "../styles/header.css";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Form from "react-bootstrap/Form";
 import Logo from "../images/Untitled (1).svg";
 import { useNavigate } from "react-router-dom";
 
@@ -34,27 +33,6 @@ function NavScrollExample() {
             className="me-auto ms-auto my-lg-0 "
             style={{ maxHeight: "100px" }}
             navbarScroll></Nav>
-
-          {/* <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-              style={{ color: "palevioletred" }}
-            />
-            <div className="box-3">
-              <div className="btn btn-three">
-                <span style={{ color: "white" }}>Search</span>
-              </div>
-            </div>
-          </Form> */}
-
-          {/* <div className="box-3">
-            <div className="btn btn-three">
-              <span style={{ color: "white" }}>Log In</span>
-            </div>
-          </div> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>

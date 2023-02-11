@@ -1,0 +1,95 @@
+{
+  "users": [
+    {
+      "name": "Aliia",
+      "surname": "Malaeva",
+      "group": "COM21A",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
+      "id": "1"
+    },
+    {
+      "name": "Gulaiym",
+      "surname": "Ibraimova",
+      "group": "COM21B",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
+      "id": "12"
+    },
+    {
+      "name": "Sae",
+      "surname": "Yeon",
+      "group": "COM21B",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
+      "id": "2"
+    },
+    {
+      "name": "Nurmuhammed",
+      "surname": "Ernestov",
+      "group": "COM21B",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
+      "id": "3"
+    },
+    {
+      "name": "Kurstan",
+      "surname": "Abazbekov",
+      "group": "COM21B",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
+      "id": "4"
+    },
+    {
+      "name": "Khamza",
+      "surname": "Ozgeziji",
+      "group": "COM21B",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
+      "id": "5"
+    },
+    {
+      "name": "Sardar",
+      "surname": "Kasmaliev",
+      "group": "COM21A",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
+      "id": "6"
+    },
+    {
+      "name": "Ruslan",
+      "surname": "Isaev",
+      "group": "teacher",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
+      "id": "11"
+    },
+    {
+      "name": "Aliia",
+      "surname": "Malaeva",
+      "group": "COM21A",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
+      "id": "7"
+    },
+    {
+      "name": "Aliia",
+      "surname": "Malaeva",
+      "group": "COM21A",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
+      "id": "8"
+    },
+    {
+      "name": "Aliia",
+      "surname": "Malaeva",
+      "group": "COM21A",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
+      "id": "9"
+    },
+    {
+      "name": "Aliia",
+      "surname": "Malaeva",
+      "group": "COM21A",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
+      "id": "10"
+    },
+    {
+      "name": "Aliia",
+      "surname": "Malaeva",
+      "group": "COM21A",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
+      "id": "11"
+    }
+  ]
+}

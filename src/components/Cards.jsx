@@ -2,8 +2,10 @@ import React from "react";
 import "../styles/cards.css";
 import Card from "react-bootstrap/Card";
 import "../styles/sendbtn.css";
+import { useNavigate } from "react-router-dom";
 
-const Cards = () => {
+const Cards = ({ item }) => {
+  const navigate = useNavigate();
   return (
     <div className="tools-wrap tool">
       <Card
@@ -19,7 +21,7 @@ const Cards = () => {
         </div>
         <Card.Body>
           <Card.Title style={{ fontSize: "23px", fontWeight: "bold" }}>
-            Nurmuhammed Ernestov
+            {item.name} {item.surname}
           </Card.Title>
           <Card.Text
             style={{
@@ -27,9 +29,11 @@ const Cards = () => {
               fontSize: "15px",
               fontWeight: "bold",
             }}>
-            COM21B
+            {item.group}
           </Card.Text>
-          <a className="send_btn">Send</a>
+          <a className="send_btn" onClick={() => navigate(`/users/${item.id}`)}>
+            Send
+          </a>
         </Card.Body>
       </Card>
     </div>

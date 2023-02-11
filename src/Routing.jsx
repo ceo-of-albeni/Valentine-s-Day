@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import ProfilePage from "./components/ProfilePage";
 import HomePage from "./page/HomePage";
 import UsersPage from "./page/UsersPage";
 
@@ -14,6 +15,11 @@ const Routing = () => {
       link: "/users",
       element: <UsersPage />,
       id: 2,
+    },
+    {
+      link: "/users/:id",
+      element: <ProfilePage />,
+      id: 3,
     },
   ];
   return (
