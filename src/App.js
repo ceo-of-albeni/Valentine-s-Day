@@ -2,15 +2,17 @@ import React from "react";
 import Routing from "./Routing";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import HomePage from "./page/HomePage";
+import UserContextProvider from "./context/userContext";
 import ProfilePage from "./page/profilePage/ProfilePage";
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <ProfilePage />
-      <Footer />
+    <div className="d-flex flex-column min-vh-100">
+      <UserContextProvider>
+        <Navbar />
+        <ProfilePage/>
+        <Footer />
+      </UserContextProvider>
     </div>
   );
 };
