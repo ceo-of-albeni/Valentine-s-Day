@@ -27,6 +27,7 @@
 
 .user p {
     padding: 10px;
+    font-weight: bold;
 }
 
 .user_sur_name {
@@ -61,14 +62,14 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    width: 550px;
+    width: 800px;
     height: 200px;
 }
 
 .hearts a {
-    width: 150px;
-    height: 130px;
-    background-size: 200px;
+    width: 230px;
+    height: 200px;
+    background-size: 300px;
     transition: .3s;
 }
 
