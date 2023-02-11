@@ -1,14 +1,14 @@
 import React from "react";
+import Routing from "./Routing";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import HomePage from "./page/HomePage";
-import ProfilePage from "./page/profilePage/ProfilePage";
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <ProfilePage />
+      <HomePage />
       <Footer />
     </div>
   );
