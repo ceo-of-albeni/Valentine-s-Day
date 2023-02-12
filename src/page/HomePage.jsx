@@ -9,14 +9,14 @@ const HomePage = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="d-flex flex-column m-4">
+    <div className="d-flex flex-column m-4 flex-wrap">
       {/* first section */}
       <div
-        className="d-flex ps-5 mb-5"
+        className="d-flex ps-5 mb-5 "
         style={{
           border: "5px double #b20a2c",
         }}>
-        <div className="d-flex">
+        <div className="d-flex ">
           <article className="d-flex flex-column justify-content-center gap-2 ">
             <h1>
               VALENTINE'S DAY <br />
@@ -51,8 +51,8 @@ const HomePage = () => {
       {/* end of first section */}
 
       {/* second section */}
-      <div className="d-flex justify-content-around my-5">
-        <div className="d-flex flex-column w-25 align-items-center">
+      <div className="d-flex justify-content-around my-5 flex-wrap">
+        <div className="d-flex flex-column w-25 align-items-center ">
           <h1>RED HEART</h1>
           <img src={RedHeart} width="200" alt="" className="my-4" />
           <b className="hearts_p">
