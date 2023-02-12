@@ -9,15 +9,16 @@ const HomePage = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="d-flex flex-column m-4 flex-wrap">
+    <div className="d-flex flex-column m-4">
       {/* first section */}
       <div
+        id="first-section"
         className="d-flex ps-5 mb-5 "
         style={{
           border: "5px double #b20a2c",
         }}>
-        <div className="d-flex ">
-          <article className="d-flex flex-column justify-content-center gap-2 ">
+        <div className="d-flex" id="first-section_article">
+          <article className="d-flex flex-column justify-content-center gap-2">
             <h1>
               VALENTINE'S DAY <br />
             </h1>
@@ -46,13 +47,16 @@ const HomePage = () => {
           src="https://www.onlygfx.com/wp-content/uploads/2021/02/6-pixel-heart-3.png"
           height="550"
           alt="image"
+          id="big-heart"
         />
       </div>
       {/* end of first section */}
 
       {/* second section */}
-      <div className="d-flex justify-content-around my-5 flex-wrap">
-        <div className="d-flex flex-column w-25 align-items-center ">
+      <div className="d-flex justify-content-around my-5" id="hearts_container">
+        <div
+          className="d-flex flex-column w-25 align-items-center"
+          id="hearts_container-div">
           <h1>RED HEART</h1>
           <img src={RedHeart} width="200" alt="" className="my-4" />
           <b className="hearts_p">
@@ -70,7 +74,9 @@ const HomePage = () => {
           </p>
         </div>
 
-        <div className="d-flex flex-column w-25 align-items-center">
+        <div
+          className="d-flex flex-column w-25 align-items-center"
+          id="hearts_container-div">
           <h1>BEIGE HEART</h1>
           <img src={YellowHeart} width="200" alt="" className="my-4" />
 
@@ -89,7 +95,9 @@ const HomePage = () => {
           </p>
         </div>
 
-        <div className="d-flex flex-column w-25 align-items-center">
+        <div
+          className="d-flex flex-column w-25 align-items-center pink_hearts-div"
+          id="hearts_container-div">
           <h1>PINK HEART</h1>
           <img src={PinkHeart} width="200" alt="" className="my-4" />
           <b className="hearts_p">
