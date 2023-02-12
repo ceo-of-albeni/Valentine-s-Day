@@ -6,8 +6,6 @@ import PinkModal from "../../components/modals/PinkModal";
 import RedModal from "../../components/modals/RedModal";
 import YellowishModal from "../../components/modals/YellowishModal";
 
-
-
 function ProfilePage() {
   const { getOneUser, oneUser } = useContext(userContext);
 
@@ -44,8 +42,6 @@ function ProfilePage() {
     getCat();
   }, []);
 
-
-
   return oneUser ? (
     <div className={classes.container}>
       <div className={classes.prof}>
@@ -64,25 +60,34 @@ function ProfilePage() {
           <div className={classes.user_faculty}>
             <p>{oneUser.group}</p>
           </div>
+
           <div className={classes.hearts}>
             <div className="d-flex flex-column align-items-center me-5">
-              <button className={classes.redHeart} onClick={() => {
-                setOpenRedModal(true);
-              }}></button>
+              <a
+                className={classes.redHeart}
+                onClick={() => {
+                  setOpenRedModal(true);
+                }}></a>
               <b className="hearts_p">"You are the Love of my Life!"</b>
               <p className={classes.hearts_count}>{oneUser.red}</p>
             </div>
+
             <div className="d-flex flex-column align-items-center mx-5">
-              <button className={classes.yellowishHeart} onClick={() => {
-                setOpenYellowishModal(true);
-              }}></button>
+              <a
+                className={classes.yellowishHeart}
+                onClick={() => {
+                  setOpenYellowishModal(true);
+                }}></a>
               <b className="hearts_p">"I'm kind of interested in You~?"</b>
               <p className={classes.hearts_count}>{oneUser.beige}</p>
             </div>
+
             <div className="d-flex flex-column align-items-center mx-5">
-              <button className={classes.pinkHeart} onClick={() => {
-                setOpenPinkModal(true);
-              }}></button>
+              <a
+                className={classes.pinkHeart}
+                onClick={() => {
+                  setOpenPinkModal(true);
+                }}></a>
               <b className="hearts_p">
                 "I'll rather spend this day with Friends!"
               </b>
@@ -91,12 +96,16 @@ function ProfilePage() {
           </div>
         </div>
       </div>
-      {openRedModal && <RedModal closeModal={setOpenRedModal}/>}
-      {openYellowishModal && <YellowishModal closeModal={setOpenYellowishModal}/>}
-      {openPinkModal && <PinkModal closeModal={setOpenPinkModal}/>}
+      {openRedModal && <RedModal closeModal={setOpenRedModal} />}
+      {openYellowishModal && (
+        <YellowishModal closeModal={setOpenYellowishModal} />
+      )}
+      {openPinkModal && <PinkModal closeModal={setOpenPinkModal} />}
     </div>
   ) : (
-    <h1>Loading...</h1>
+    <div className="d-flex justify-content-center align-items-center">
+      <h1>Loading...</h1>
+    </div>
   );
 }
 
