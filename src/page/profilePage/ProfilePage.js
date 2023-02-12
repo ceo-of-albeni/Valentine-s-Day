@@ -44,9 +44,9 @@ function ProfilePage() {
                         <p>COM-21B</p>
                     </div>
                     <div className={classes.hearts}>
-                        <a className={classes.redHeart} href=""></a>
-                        <a className={classes.yellowishHeart} href=""></a>
-                        <a className={classes.pinkHeart} href=""></a>
+                        <button className={classes.redHeart}></button>
+                        <button className={classes.yellowishHeart}></button>
+                        <button className={classes.pinkHeart}></button>
                     </div>
                 </div>
             </div>
