@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.modal_container{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.modal {
+    position: fixed;
+    display: block;
+    padding-top: 90px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal_inner {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    width: 500px;
+    height: 550px;
+    background: linear-gradient(
+    rgb(244, 164, 247),
+    rgb(248, 201, 213),
+    rgb(253, 145, 165));
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.form_bar {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 430px;
+}
+
+.email {
+    background: #FFDFD5;
+    flex: 0;
+    border: 2px solid rgb(171, 167, 168);
+    border-radius: 12px;
+    outline: none;
+    margin: 10px 0px;
+    padding: 15px 15px;
+    color: #E56A6A;
+    font-size: 20px;
+}
+
+.text {
+    background: #FFDFD5;
+    flex: 0;
+    border: 2px solid rgb(171, 167, 168)k;
+    border-radius: 12px;
+    outline: none;
+    margin: 10px 0px;
+    padding: 15px 10px;
+    color: #E56A6A;
+    font-size: 20px;
+}
+
+.modal_footer button {
+    width: 180px;
+    height: 50px;
+    margin: 15px 10px 0px;
+    border-radius: 15px;
+    transition: .2s;
+}
+
+button {
+    color: black;
+    background-color: #FFDFD5;
+    border: 2px solid rgb(171, 167, 168);
+    outline: none;
+}
+
+.heart img {
+    position: relative;
+    width: 200px;
+    height: 150px;
+}
+
+.heart button {
+    position: absolute;
+    display: flex;
+    margin-top: -150px;
+    margin-left: 300px;
+    border: none;
+    background: none;
+    font-size: 30px;
+}
+
+.modal_footer button:nth-child(1):hover {
+    color: white;
+    transform: translateX(-10px);
+    background-color: #FF003C;
+}
+
+.modal_footer button:nth-child(2):hover {
+    color: white;
+    transform: translateX(10px);
+    background-color: #C2B4FF;
+}

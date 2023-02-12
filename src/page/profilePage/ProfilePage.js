@@ -2,12 +2,16 @@ import classes from "../profilePage/profilePage.module.css";
 import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { userContext } from "../../context/userContext";
+import Modal from "../../components/modal/Modal";
+
+
+
 function ProfilePage() {
   const { getOneUser, oneUser } = useContext(userContext);
 
   const params = useParams();
 
-  // console.log(oneUser);
+  const [openModal, setOpenModal] = useState(false);
 
   useEffect(() => {
     getOneUser(params.id);
@@ -36,6 +40,8 @@ function ProfilePage() {
     getCat();
   }, []);
 
+
+
   return oneUser ? (
     <div className={classes.container}>
       <div className={classes.prof}>
@@ -56,17 +62,25 @@ function ProfilePage() {
           </div>
           <div className={classes.hearts}>
             <div className="d-flex flex-column align-items-center me-5">
-              <a className={classes.redHeart}></a>
+              <button className={classes.redHeart} 
+              onClick={() => {
+                setOpenModal(true);
+              }}></button>
               <b className="hearts_p">"You are the Love of my Life!"</b>
               <p className={classes.hearts_count}>{oneUser.red}</p>
             </div>
             <div className="d-flex flex-column align-items-center mx-5">
-              <a className={classes.yellowishHeart}></a>
+              <button className={classes.yellowishHeart} 
+              onClick={() => {
+                setOpenModal(true);
+              }}></button>
               <b className="hearts_p">"I'm kind of interested in You~?"</b>
               <p className={classes.hearts_count}>{oneUser.beige}</p>
             </div>
             <div className="d-flex flex-column align-items-center mx-5">
-              <a className={classes.pinkHeart}></a>
+              <button className={classes.pinkHeart} onClick={() => {
+                setOpenModal(true);
+              }}></button>
               <b className="hearts_p">
                 "I'll rather spend this day with Friends!"
               </b>
@@ -75,6 +89,7 @@ function ProfilePage() {
           </div>
         </div>
       </div>
+      {openModal && <Modal closeModal={setOpenModal}/>}
     </div>
   ) : (
     <h1>Loading...</h1>
