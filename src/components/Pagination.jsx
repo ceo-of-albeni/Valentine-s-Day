@@ -37,6 +37,7 @@ function AdvancedExample({ page, count, setPage }) {
           {items}
           <button id="pagination" onClick={() => next()}>
             <i className="fa-solid fa-caret-right"></i>
+
           </button>
         </Pagination>
       </div>
