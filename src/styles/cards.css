@@ -32,8 +32,8 @@
   margin: 0px 5px;
   box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
   font-size: 18px;
-  height: 39px;
-  width: 37px;
+  height: 39px !important;
+  width: 37px !important;
   align-items: center;
   margin-top: 15px;
 }
