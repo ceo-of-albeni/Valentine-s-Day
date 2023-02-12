@@ -67,7 +67,7 @@
   margin-top: 90px;
 }
 
-.hearts button {
+.hearts a {
   width: 230px;
   height: 200px;
   border: none;
@@ -75,7 +75,7 @@
   transition: 0.3s;
 }
 
-.hearts button:hover {
+.hearts a:hover {
   border: none;
   transform: translateY(-20px);
 }
