@@ -1,10 +1,10 @@
 import React from "react";
-import classes from "./modal.module.css";
+import classes from "./modals.module.css";
 import pink from "../../images/pink.svg"
 
 
 
-function Modal({closeModal}) {
+function PinkModal({closeModal}) {
     return (
         <div className={classes.modal}>
             <div className={classes.modal_container}>
@@ -29,4 +29,4 @@ function Modal({closeModal}) {
     )
 }
 
-export default Modal;
+export default PinkModal;

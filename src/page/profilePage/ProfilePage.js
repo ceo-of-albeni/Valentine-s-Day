@@ -2,7 +2,9 @@ import classes from "../profilePage/profilePage.module.css";
 import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { userContext } from "../../context/userContext";
-import Modal from "../../components/modal/Modal";
+import PinkModal from "../../components/modals/PinkModal";
+import RedModal from "../../components/modals/RedModal";
+import YellowishModal from "../../components/modals/YellowishModal";
 
 
 
@@ -11,7 +13,9 @@ function ProfilePage() {
 
   const params = useParams();
 
-  const [openModal, setOpenModal] = useState(false);
+  const [openPinkModal, setOpenPinkModal] = useState(false);
+  const [openRedModal, setOpenRedModal] = useState(false);
+  const [openYellowishModal, setOpenYellowishModal] = useState(false);
 
   useEffect(() => {
     getOneUser(params.id);
@@ -62,24 +66,22 @@ function ProfilePage() {
           </div>
           <div className={classes.hearts}>
             <div className="d-flex flex-column align-items-center me-5">
-              <button className={classes.redHeart} 
-              onClick={() => {
-                setOpenModal(true);
+              <button className={classes.redHeart} onClick={() => {
+                setOpenRedModal(true);
               }}></button>
               <b className="hearts_p">"You are the Love of my Life!"</b>
               <p className={classes.hearts_count}>{oneUser.red}</p>
             </div>
             <div className="d-flex flex-column align-items-center mx-5">
-              <button className={classes.yellowishHeart} 
-              onClick={() => {
-                setOpenModal(true);
+              <button className={classes.yellowishHeart} onClick={() => {
+                setOpenYellowishModal(true);
               }}></button>
               <b className="hearts_p">"I'm kind of interested in You~?"</b>
               <p className={classes.hearts_count}>{oneUser.beige}</p>
             </div>
             <div className="d-flex flex-column align-items-center mx-5">
               <button className={classes.pinkHeart} onClick={() => {
-                setOpenModal(true);
+                setOpenPinkModal(true);
               }}></button>
               <b className="hearts_p">
                 "I'll rather spend this day with Friends!"
@@ -89,7 +91,9 @@ function ProfilePage() {
           </div>
         </div>
       </div>
-      {openModal && <Modal closeModal={setOpenModal}/>}
+      {openRedModal && <RedModal closeModal={setOpenRedModal}/>}
+      {openYellowishModal && <YellowishModal closeModal={setOpenYellowishModal}/>}
+      {openPinkModal && <PinkModal closeModal={setOpenPinkModal}/>}
     </div>
   ) : (
     <h1>Loading...</h1>
