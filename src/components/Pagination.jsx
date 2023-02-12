@@ -31,14 +31,12 @@ function AdvancedExample({ page, count, setPage }) {
     <div>
       <div>
         <Pagination className="pag_container">
-          {/* <Pagination.Prev /> */}
           <button id="pagination" onClick={() => prev()}>
-            <i className="fa-solid fa-chevron-left"></i>
+            <i className="fa-solid fa-caret-left"></i>
           </button>
           {items}
-          {/* <Pagination.Next /> */}
           <button id="pagination" onClick={() => next()}>
-            <i className="fa-solid fa-chevron-right"></i>
+            <i className="fa-solid fa-caret-right"></i>
           </button>
         </Pagination>
       </div>

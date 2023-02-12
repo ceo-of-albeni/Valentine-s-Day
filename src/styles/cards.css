@@ -7,9 +7,6 @@
   transition: 0.35s;
   background-color: rgb(250, 234, 230);
   color: rgb(179, 28, 68);
-  /*flex-grow: 0; */
-  /*flex-shrink: 1; */
-  /*flex-basis: 392px; */
 }
 
 .tools-wrap .tool:hover {
@@ -27,19 +24,23 @@
 }
 
 #pagination {
-  background-color: pink !important;
+  background-color: rgb(252, 171, 184);
   border: white 1px solid !important;
-  /* border-radius: 10px; */
-  color: palevioletred;
+  border-radius: 18px !important;
+  color: rgb(237, 94, 111);
   flex: 1;
   margin: 0px 5px;
-  /* background: #dde1e7; */
-  border-radius: 3px;
   box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+  font-size: 18px;
+  height: 39px;
+  width: 37px;
+  align-items: center;
+  margin-top: 15px;
 }
 
 #pagination:hover {
-  background-color: rgb(253, 170, 183) !important;
+  background-color: rgb(246, 191, 199) !important;
+  color: rgb(186, 59, 82) !important;
 }
 
 .pag_.container {
@@ -47,4 +48,12 @@
   padding: 25px;
   border-radius: 3px;
   box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+
+.active > .page-link,
+.page-link.active {
+  color: white !important;
+  background-color: rgb(186, 59, 82) !important;
+  text-align: center;
+  font-weight: bold;
 }
