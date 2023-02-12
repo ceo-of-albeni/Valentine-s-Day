@@ -3,14 +3,13 @@ import Routing from "./Routing";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import UserContextProvider from "./context/userContext";
-import ProfilePage from "./page/profilePage/ProfilePage";
 
 const App = () => {
   return (
     <div className="d-flex flex-column min-vh-100">
       <UserContextProvider>
         <Navbar />
-        <ProfilePage/>
+        <Routing />
         <Footer />
       </UserContextProvider>
     </div>

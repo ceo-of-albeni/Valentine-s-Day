@@ -7,9 +7,6 @@
   transition: 0.35s;
   background-color: rgb(250, 234, 230);
   color: rgb(179, 28, 68);
-  /*flex-grow: 0; */
-  /*flex-shrink: 1; */
-  /*flex-basis: 392px; */
 }
 
 .tools-wrap .tool:hover {
@@ -33,7 +30,6 @@
   color: rgb(237, 94, 111);
   flex: 1;
   margin: 0px 5px;
-  /* background: #dde1e7; */
   box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
   font-size: 18px;
   height: 39px;
@@ -44,7 +40,7 @@
 
 #pagination:hover {
   background-color: rgb(246, 191, 199) !important;
-  color:rgb(186, 59, 82) !important;
+  color: rgb(186, 59, 82) !important;
 }
 
 .pag_.container {

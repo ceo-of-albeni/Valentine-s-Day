@@ -27,13 +27,6 @@ function NavScrollExample() {
             onClick={() => navigate("/")}
           />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="me-auto ms-auto my-lg-0 "
-            style={{ maxHeight: "100px" }}
-            navbarScroll></Nav>
-        </Navbar.Collapse>
       </Container>
     </Navbar>
   );

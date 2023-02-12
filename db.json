@@ -1,95 +1,213 @@
 {
   "users": [
     {
+      "email": "aliia.malaeva@alatoo.edu.kg",
       "name": "Aliia",
       "surname": "Malaeva",
       "group": "COM21A",
       "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
-      "id": "1"
+      "id": "1",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
     },
     {
+      "email": "aliia.malaeva@alatoo.edu.kg",
       "name": "Gulaiym",
       "surname": "Ibraimova",
       "group": "COM21B",
       "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
-      "id": "12"
+      "id": "12",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
     },
     {
+      "email": "aliia.malaeva@alatoo.edu.kg",
       "name": "Sae Yeon",
       "surname": "Chung",
       "group": "COM21B",
       "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
-      "id": "2"
+      "id": "2",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
     },
     {
+      "email": "aliia.malaeva@alatoo.edu.kg",
       "name": "Nurmuhammed",
       "surname": "Ernestov",
       "group": "COM21B",
       "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
-      "id": "3"
+      "id": "3",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
     },
     {
+      "email": "aliia.malaeva@alatoo.edu.kg",
       "name": "Kurstan",
       "surname": "Abazbekov",
       "group": "COM21B",
       "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
-      "id": "4"
+      "id": "4",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
     },
     {
+      "email": "aliia.malaeva@alatoo.edu.kg",
       "name": "Khamza",
       "surname": "Ozgeziji",
       "group": "COM21B",
       "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
-      "id": "5"
+      "id": "5",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
     },
     {
+      "email": "aliia.malaeva@alatoo.edu.kg",
       "name": "Sardar",
       "surname": "Kasmaliev",
       "group": "COM21A",
       "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
-      "id": "6"
+      "id": "6",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
     },
     {
+      "email": "aliia.malaeva@alatoo.edu.kg",
       "name": "Ruslan",
       "surname": "Isaev",
       "group": "teacher",
       "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
-      "id": "11"
+      "id": "11",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
     },
     {
+      "email": "aliia.malaeva@alatoo.edu.kg",
       "name": "Aliia",
       "surname": "Malaeva",
       "group": "COM21A",
       "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
-      "id": "7"
+      "id": "7",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
     },
     {
+      "email": "aliia.malaeva@alatoo.edu.kg",
       "name": "Aliia",
       "surname": "Malaeva",
       "group": "COM21A",
       "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
-      "id": "8"
+      "id": "8",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
     },
     {
+      "email": "aliia.malaeva@alatoo.edu.kg",
       "name": "Aliia",
       "surname": "Malaeva",
       "group": "COM21A",
       "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
-      "id": "9"
+      "id": "9",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
     },
     {
+      "email": "aliia.malaeva@alatoo.edu.kg",
       "name": "Aliia",
       "surname": "Malaeva",
       "group": "COM21A",
       "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
-      "id": "10"
+      "id": "10",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
     },
     {
+      "email": "aliia.malaeva@alatoo.edu.kg",
       "name": "Aliia",
       "surname": "Malaeva",
       "group": "COM21A",
       "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
-      "id": "11"
+      "id": "26",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
+    },
+    {
+      "email": "aliia.malaeva@alatoo.edu.kg",
+      "name": "Gulaiym",
+      "surname": "Ibraimova",
+      "group": "COM21B",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
+      "id": "25",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
+    },
+    {
+      "email": "aliia.malaeva@alatoo.edu.kg",
+      "name": "Sae Yeon",
+      "surname": "Chung",
+      "group": "COM21B",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
+      "id": "24",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
+    },
+    {
+      "email": "aliia.malaeva@alatoo.edu.kg",
+      "name": "Gulaiym",
+      "surname": "Ibraimova",
+      "group": "COM21B",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
+      "id": "23",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
+    },
+    {
+      "email": "aliia.malaeva@alatoo.edu.kg",
+      "name": "Sae Yeon",
+      "surname": "Chung",
+      "group": "COM21B",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
+      "id": "22",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
+    },
+    {
+      "email": "aliia.malaeva@alatoo.edu.kg",
+      "name": "Sae Yeon",
+      "surname": "Chung",
+      "group": "COM21B",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
+      "id": "29",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
+    },
+    {
+      "email": "aliia.malaeva@alatoo.edu.kg",
+      "name": "Sae Yeon",
+      "surname": "Chung",
+      "group": "COM21B",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
+      "id": "15",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
     }
   ]
 }

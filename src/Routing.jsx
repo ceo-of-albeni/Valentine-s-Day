@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import ProfilePage from "./components/ProfilePage";
 import HomePage from "./page/HomePage";
+import ProfilePage from "./page/profilePage/ProfilePage";
 import UsersPage from "./page/UsersPage";
 
 const Routing = () => {

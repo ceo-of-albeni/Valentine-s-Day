@@ -23,8 +23,6 @@ function reducer(state = INIT_STATE, action) {
 const UserContextProvider = ({ children }) => {
   const API = "http://localhost:8000/users";
 
-  const location = useLocation();
-
   const [state, dispatch] = useReducer(reducer, INIT_STATE);
 
   async function getUsers() {

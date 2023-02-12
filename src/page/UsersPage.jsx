@@ -22,6 +22,7 @@ const UsersPage = () => {
 
   return (
     <div className="d-flex flex-column align-items-center">
+      <h1 className="mt-5">Who are you looking for?</h1>
       <Form className="d-flex mt-4">
         <Form.Control
           type="search"

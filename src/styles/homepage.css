@@ -153,25 +153,9 @@
   }
 }
 
-.homepage__h2 {
-  font-family: fantasy;
-  font-weight: bold;
-}
-
 h1,
 .hearts_p {
   color: darkred;
-}
-
-.homepage__places {
-  border: 2px lightgrey solid;
-  height: 400px;
-  background-color: #fd767638;
-}
-
-.d-grid {
-  margin-left: 70px;
-  height: 70vh;
 }
 
 .homepage_p {
