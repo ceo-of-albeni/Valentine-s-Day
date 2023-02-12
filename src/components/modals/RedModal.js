@@ -15,7 +15,8 @@ function RedModal({closeModal}) {
                     </div>
                     <div className={classes.form}>
                         <form className={classes.form_bar}>
-                            <input className={classes.email} type="email" id="email" placeholder="Enter alatoo email"/>
+                            <input className={classes.email} type="email" id="email" placeholder="Enter Ala-Too e-mail"/>
+                            <p className={classes.anonymous}>* Everything will be kept confidential.</p>
                             <textarea className={classes.text} id="freeform" name="textarea" placeholder="Type your text" rows="5" cols="40"/>
                         </form>
                     </div>
