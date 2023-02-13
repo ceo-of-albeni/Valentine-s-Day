@@ -339,7 +339,6 @@ h2 {
   .user_sur_name p {
     font-size: 18px;
     margin-bottom: -10px;
-    width: 85px;
   }
   .user_faculty p {
     font-size: 13px;
@@ -384,60 +383,14 @@ h2 {
     height: 200px;
   }
   .user_sur_name {
-    margin-left: -25px;
-  }
-  .user_sur_name p {
-    font-size: 18px;
-    margin-bottom: -10px;
-    width: 85px;
-  }
-  .user_faculty p {
-    font-size: 13px;
-    margin-bottom: -16px; 
-  }
-  .hearts {
-    width: 450px;
-    height: 150px;
-    margin-top: 30px;
-  }
-  .hearts a {
-    width: 100px;
-    height: 80px;
-    background-size: 130px;
-  }
-  .hearts b, .hearts p {
-    font-size: 11px;
-    width: 150px;
+    flex-direction: column;
     text-align: center;
-  }
-}
-
-@media (max-width: 610px) {
-  .container {
-    width: 550px;
-  }
-  .user {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-left: -10px;
-  }
-  .prof {
-    display: flex;
-    flex-direction: column;
-    padding: 20px 0px;
-    margin-bottom: 20px;
-  }
-  .prof_img img {
-    width: 140px;
-    height: 200px;
+    margin-left: 0px;
   }
   .user_sur_name p {
+    display: flex;
+    justify-content: center;
     font-size: 18px;
-    margin-bottom: -10px;
-    width: 85px;
   }
   .user_faculty p {
     font-size: 13px;
@@ -487,7 +440,6 @@ h2 {
   .user_sur_name p {
     font-size: 18px;
     margin-bottom: -10px;
-    width: 85px;
   }
   .user_faculty p {
     font-size: 13px;
@@ -537,7 +489,6 @@ h2 {
   .user_sur_name p {
     font-size: 18px;
     margin-bottom: -10px;
-    width: 85px;
   }
   .user_faculty p {
     font-size: 13px;
@@ -588,7 +539,6 @@ h2 {
   .user_sur_name p {
     font-size: 18px;
     margin-bottom: -10px;
-    width: 85px;
   }
   .user_faculty p {
     font-size: 13px;
@@ -638,7 +588,6 @@ h2 {
   .user_sur_name p {
     font-size: 18px;
     margin-bottom: -10px;
-    width: 85px;
   }
   .user_faculty p {
     font-size: 13px;
