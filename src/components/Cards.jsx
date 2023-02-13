@@ -33,6 +33,7 @@ const Cards = ({ item }) => {
   return (
     <div className="tools-wrap tool">
       <Card
+        id="cardcss"
         style={{ width: "24rem", height: "14rem" }}
         className="mt-5 mb-3 mx-4 align-items-center tools-wrap tool d-flex flex-row">
         <div>
@@ -41,11 +42,12 @@ const Cards = ({ item }) => {
             variant="top"
             style={{ width: "7rem" }}
             src={catUrl}
-            // src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg"
           />
         </div>
         <Card.Body>
-          <Card.Title style={{ fontSize: "23px", fontWeight: "bold" }}>
+          <Card.Title
+            id="cards_name"
+            style={{ fontSize: "23px", fontWeight: "bold" }}>
             {item.name} {item.surname}
           </Card.Title>
           <Card.Text

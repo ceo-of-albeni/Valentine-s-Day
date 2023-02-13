@@ -78,6 +78,7 @@
 .hearts a:hover {
   border: none;
   transform: translateY(-20px);
+  cursor: pointer;
 }
 
 .redHeart {

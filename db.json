@@ -82,9 +82,9 @@
     },
     {
       "email": "aliia.malaeva@alatoo.edu.kg",
-      "name": "Aliia",
-      "surname": "Malaeva",
-      "group": "COM21A",
+      "name": "Zhibek",
+      "surname": "Romanova",
+      "group": "COM21B",
       "id": "7",
       "red": "2",
       "beige": "0",
@@ -165,7 +165,7 @@
       "name": "Sae Yeon",
       "surname": "Chung",
       "group": "COM21B",
-      "id": "22",
+      "id": "221",
       "red": "2",
       "beige": "0",
       "pink": "4"
@@ -175,7 +175,7 @@
       "name": "Sae Yeon",
       "surname": "Chung",
       "group": "COM21B",
-      "id": "29",
+      "id": "291",
       "red": "2",
       "beige": "0",
       "pink": "4"
@@ -185,7 +185,147 @@
       "name": "Sae Yeon",
       "surname": "Chung",
       "group": "COM21B",
-      "id": "15",
+      "id": "151",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
+    },
+    {
+      "email": "aliia.malaeva@alatoo.edu.kg",
+      "name": "Aliia",
+      "surname": "Malaeva",
+      "group": "COM21A",
+      "id": "171",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
+    },
+    {
+      "email": "aliia.malaeva@alatoo.edu.kg",
+      "name": "Gulaiym",
+      "surname": "Ibraimova",
+      "group": "COM21B",
+      "id": "212",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
+    },
+    {
+      "email": "aliia.malaeva@alatoo.edu.kg",
+      "name": "Sae Yeon",
+      "surname": "Chung",
+      "group": "COM21B",
+      "id": "112",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
+    },
+    {
+      "email": "aliia.malaeva@alatoo.edu.kg",
+      "name": "Nurmuhammed",
+      "surname": "Ernestov",
+      "group": "COM21B",
+      "id": "113",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
+    },
+    {
+      "email": "aliia.malaeva@alatoo.edu.kg",
+      "name": "Kurstan",
+      "surname": "Abazbekov",
+      "group": "COM21B",
+      "id": "114",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
+    },
+    {
+      "email": "aliia.malaeva@alatoo.edu.kg",
+      "name": "Khamza",
+      "surname": "Ozgeziji",
+      "group": "COM21B",
+      "id": "115",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
+    },
+    {
+      "email": "aliia.malaeva@alatoo.edu.kg",
+      "name": "Sardar",
+      "surname": "Kasmaliev",
+      "group": "COM21A",
+      "id": "116",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
+    },
+    {
+      "email": "aliia.malaeva@alatoo.edu.kg",
+      "name": "Ruslan",
+      "surname": "Isaev",
+      "group": "teacher",
+      "id": "111",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
+    },
+    {
+      "email": "aliia.malaeva@alatoo.edu.kg",
+      "name": "Aliia",
+      "surname": "Malaeva",
+      "group": "COM21A",
+      "id": "117",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
+    },
+    {
+      "email": "aliia.malaeva@alatoo.edu.kg",
+      "name": "Aliia",
+      "surname": "Malaeva",
+      "group": "COM21A",
+      "id": "118",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
+    },
+    {
+      "email": "aliia.malaeva@alatoo.edu.kg",
+      "name": "Aliia",
+      "surname": "Malaeva",
+      "group": "COM21A",
+      "id": "119",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
+    },
+    {
+      "email": "aliia.malaeva@alatoo.edu.kg",
+      "name": "Aliia",
+      "surname": "Malaeva",
+      "group": "COM21A",
+      "id": "110",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
+    },
+    {
+      "email": "aliia.malaeva@alatoo.edu.kg",
+      "name": "Aliia",
+      "surname": "Malaeva",
+      "group": "COM21A",
+      "id": "126",
+      "red": "2",
+      "beige": "0",
+      "pink": "4"
+    },
+    {
+      "email": "aliia.malaeva@alatoo.edu.kg",
+      "name": "Gulaiym",
+      "surname": "Ibraimova",
+      "group": "COM21B",
+      "id": "125",
       "red": "2",
       "beige": "0",
       "pink": "4"
