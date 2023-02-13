@@ -57,7 +57,7 @@ const HomePage = () => {
         <div
           className="d-flex flex-column w-25 align-items-center"
           id="hearts_container-div">
-          <h1>RED HEART</h1>
+          <h1 className="hearts_h1">RED HEART</h1>
           <img src={RedHeart} width="200" alt="" className="my-4" />
           <b className="hearts_p">
             "You are the Love of my Life!"
@@ -77,7 +77,7 @@ const HomePage = () => {
         <div
           className="d-flex flex-column w-25 align-items-center"
           id="hearts_container-div">
-          <h1>BEIGE HEART</h1>
+          <h1 className="hearts_h1">BEIGE HEART</h1>
           <img src={YellowHeart} width="200" alt="" className="my-4" />
 
           <b className="hearts_p">
@@ -98,7 +98,7 @@ const HomePage = () => {
         <div
           className="d-flex flex-column w-25 align-items-center pink_hearts-div"
           id="hearts_container-div">
-          <h1>PINK HEART</h1>
+          <h1 className="hearts_h1">PINK HEART</h1>
           <img src={PinkHeart} width="200" alt="" className="my-4" />
           <b className="hearts_p">
             "I'll rather spend this day with Friends!"

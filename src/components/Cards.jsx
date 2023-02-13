@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../styles/cards.css";
 import Card from "react-bootstrap/Card";
 import "../styles/sendbtn.css";
@@ -6,6 +6,30 @@ import { useNavigate } from "react-router-dom";
 
 const Cards = ({ item }) => {
   const navigate = useNavigate();
+
+  const url = "https://api.thecatapi.com/v1/images/search";
+  const [catUrl, setCatUrl] = useState(
+    "https://cdn.dribbble.com/users/160117/screenshots/3197970/media/51a6e132b11664f7f2085bb6a35fc628.gif"
+  );
+
+  const getCat = () => {
+    fetch(url)
+      .then(res => res.json())
+      .then(cats => {
+        console.log("Cats: ", cats);
+        const catUrl = cats[0].url;
+        setCatUrl(catUrl);
+      })
+      .catch(error => {
+        console.log("Error: ", error);
+      });
+  };
+
+  useEffect(() => {
+    console.log("Loading your feline friends...");
+    getCat();
+  }, []);
+
   return (
     <div className="tools-wrap tool">
       <Card
@@ -16,7 +40,8 @@ const Cards = ({ item }) => {
             className="justify-content-center"
             variant="top"
             style={{ width: "7rem" }}
-            src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg"
+            src={catUrl}
+            // src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg"
           />
         </div>
         <Card.Body>
