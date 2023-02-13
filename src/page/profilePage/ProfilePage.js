@@ -62,7 +62,7 @@ function ProfilePage() {
           </div>
 
           <div className={classes.hearts}>
-            <div className="d-flex flex-column align-items-center me-5">
+            <div className="d-flex flex-column align-items-center">
               <a
                 className={classes.redHeart}
                 onClick={() => {
@@ -72,7 +72,7 @@ function ProfilePage() {
               <p className={classes.hearts_count}>{oneUser.red}</p>
             </div>
 
-            <div className="d-flex flex-column align-items-center mx-5">
+            <div className="d-flex flex-column align-items-center">
               <a
                 className={classes.yellowishHeart}
                 onClick={() => {
@@ -82,7 +82,7 @@ function ProfilePage() {
               <p className={classes.hearts_count}>{oneUser.beige}</p>
             </div>
 
-            <div className="d-flex flex-column align-items-center mx-5">
+            <div className="d-flex flex-column align-items-center">
               <a
                 className={classes.pinkHeart}
                 onClick={() => {
