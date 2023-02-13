@@ -5,6 +5,7 @@ import { userContext } from "../../context/userContext";
 import PinkModal from "../../components/modals/PinkModal";
 import RedModal from "../../components/modals/RedModal";
 import YellowishModal from "../../components/modals/YellowishModal";
+import axios from "axios";
 
 function ProfilePage() {
   const { getOneUser, oneUser } = useContext(userContext);
@@ -28,7 +29,6 @@ function ProfilePage() {
     fetch(url)
       .then(res => res.json())
       .then(cats => {
-        console.log("Cats: ", cats);
         const catUrl = cats[0].url;
         setCatUrl(catUrl);
       })

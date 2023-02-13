@@ -158,6 +158,10 @@ h1,
   color: darkred;
 }
 
+.hearts_h1 {
+  text-align: center;
+}
+
 .homepage_p {
   color: rgb(209, 96, 96);
   font-size: 18px;
@@ -172,7 +176,7 @@ hr {
 }
 
 /* ADAPTIVE FOR HOMEPAGE */
-@media all and (max-width: 870px) {
+@media all and (max-width: 900px) {
   #hearts_container {
     display: flex;
     flex-direction: column;
@@ -202,7 +206,7 @@ hr {
   }
   #hearts_container-div {
     width: 100% !important;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
     padding: 5%;
     border: 2px dashed rgba(141, 76, 76, 0.537);
   }
@@ -211,5 +215,17 @@ hr {
   }
   .pink_hearts-div {
     margin-bottom: 0 !important;
+  }
+}
+
+@media all and (max-width: 1100px) {
+  #big-heart {
+    margin-top: 5%;
+    padding-left: 17%;
+    /* width: 45%;
+    height: 45%; */
+  }
+  #first-section {
+    padding: 6% 0%;
   }
 }
