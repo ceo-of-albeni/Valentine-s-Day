@@ -141,18 +141,11 @@ h2 {
     width: 250px;
     height: 350px;
   }
-  .user_sur_name p {
-    font-size: 30px;
-  }
   .hearts {
     width: 750px;
-    height: 150px;
-    margin-top: 70px;
   }
   .hearts a {
     width: 180px;
-    height: 150px;
-    background-size: 250px;
   }
 }
 
@@ -164,12 +157,8 @@ h2 {
     width: 230px;
     height: 330px;
   }
-  .user_sur_name p {
-    font-size: 30px;
-  }
   .hearts {
     width: 670px;
-    height: 150px;
     margin-top: 50px;
   }
   .hearts a {
@@ -186,25 +175,8 @@ h2 {
   .container {
     width: 950px;
   }
-  .prof_img img {
-    width: 230px;
-    height: 330px;
-  }
-  .user_sur_name p {
-    font-size: 30px;
-  }
   .hearts {
     width: 680px;
-    height: 150px;
-    margin-top: 50px;
-  }
-  .hearts a {
-    width: 150px;
-    height: 130px;
-    background-size: 200px;
-  }
-  .hearts b, .hearts p {
-    font-size: 15px;
   }
 }
 
@@ -228,7 +200,6 @@ h2 {
   }
   .hearts {
     width: 550px;
-    height: 150px;
     margin-top: 30px;
   }
   .hearts a {
@@ -249,75 +220,28 @@ h2 {
   }
   .user {
     margin-left: 15px;
-  }  
-  .prof {
-    padding: 20px 0px;
-    margin-bottom: 20px;
   }
   .prof_img img {
     width: 180px;
     height: 250px;
   }
   .user_sur_name p {
-    font-size: 25px;
     margin-bottom: -10px;
-  }
-  .user_faculty p {
-    font-size: 18px;
-  }
-  .hearts {
-    width: 550px;
-    height: 150px;
-    margin-top: 30px;
-  }
-  .hearts a {
-    width: 130px;
-    height: 120px;
-    background-size: 170px;
-  }
-  .hearts b, .hearts p {
-    font-size: 14px;
-    width: 150px;
-    text-align: center;
   }
 }
 
 @media (max-width: 750px) {
   .container {
     width: 680px;
-  }
-  .user {
-    margin-left: 15px;
-  }  
-  .prof {
-    padding: 20px 0px;
-    margin-bottom: 20px;
-  }
-  .prof_img img {
-    width: 180px;
-    height: 250px;
-  }
-  .user_sur_name p {
-    font-size: 25px;
-    margin-bottom: -10px;
-  }
-  .user_faculty p {
-    font-size: 18px;
-  }
+  } 
   .hearts {
     width: 470px;
-    height: 150px;
-    margin-top: 30px;
   }
   .hearts a {
-    width: 130px;
-    height: 120px;
     background-size: 150px;
   }
   .hearts b, .hearts p {
     font-size: 12px;
-    width: 150px;
-    text-align: center;
   }
 }
 
@@ -328,25 +252,18 @@ h2 {
   .user {
     margin-left: 10px;
   }  
-  .prof {
-    padding: 20px 0px;
-    margin-bottom: 20px;
-  }
   .prof_img img {
     width: 150px;
     height: 230px;
   }
   .user_sur_name p {
     font-size: 18px;
-    margin-bottom: -10px;
   }
   .user_faculty p {
     font-size: 13px;
   }
   .hearts {
     width: 400px;
-    height: 150px;
-    margin-top: 30px;
   }
   .hearts a {
     width: 100px;
@@ -355,8 +272,6 @@ h2 {
   }
   .hearts b, .hearts p {
     font-size: 11px;
-    width: 150px;
-    text-align: center;
   }
 }
 
@@ -375,8 +290,6 @@ h2 {
   .prof {
     display: flex;
     flex-direction: column;
-    padding: 20px 0px;
-    margin-bottom: 20px;
   }
   .prof_img img {
     width: 140px;
@@ -393,171 +306,46 @@ h2 {
     font-size: 18px;
   }
   .user_faculty p {
-    font-size: 13px;
     margin-bottom: -16px; 
   }
   .hearts {
     width: 450px;
     height: 150px;
     margin-top: 30px;
-  }
-  .hearts a {
-    width: 100px;
-    height: 80px;
-    background-size: 130px;
-  }
-  .hearts b, .hearts p {
-    font-size: 11px;
-    width: 150px;
-    text-align: center;
   }
 }
 
 @media (max-width: 550px) {
-  .container {
-    width: 550px;
-  }
-  .user {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-left: -10px;
-  }
   .prof {
-    display: flex;
-    flex-direction: column;
     margin: 0 auto;
     width: 450px;
-    padding: 20px 0px;
-    margin-bottom: 20px;
-  }
-  .prof_img img {
-    width: 140px;
-    height: 200px;
   }
   .user_sur_name p {
-    font-size: 18px;
     margin-bottom: -10px;
-  }
-  .user_faculty p {
-    font-size: 13px;
-    margin-bottom: -16px; 
-  }
-  .hearts {
-    width: 450px;
-    height: 150px;
-    margin-top: 30px;
-  }
-  .hearts a {
-    width: 100px;
-    height: 80px;
-    background-size: 130px;
-  }
-  .hearts b, .hearts p {
-    font-size: 11px;
-    width: 150px;
-    text-align: center;
   }
 }
 
-@media (max-width: 542px) {
+@media (max-width: 549px) {
   .container {
     width: 400px;
   }
-  .user {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 0px;
-  }
   .prof {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
     width: 350px;
-    padding: 20px 0px;
-    margin-bottom: 20px;
   }
-  .prof_img img {
-    width: 140px;
-    height: 200px;
-  }
-  .user_sur_name p {
-    font-size: 18px;
-    margin-bottom: -10px;
-  }
-  .user_faculty p {
-    font-size: 13px;
-    margin-bottom: -16px; 
-  }
-  .hearts {
-    width: 450px;
-    height: 150px;
-    margin-top: 30px;
-  }
-  .hearts a {
-    width: 100px;
-    height: 80px;
-    background-size: 130px;
-  }
-  .hearts b, .hearts p {
-    font-size: 11px;
-    width: 150px;
-    text-align: center;
-  }
-  
 }
 
 @media (max-width: 450px) {
   .container {
     width: 350px;
   }
-  .user {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 0px;
-  }
-  .prof {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 350px;
-    padding: 20px 0px;
-    margin-bottom: 20px;
-  }
-  .prof_img img {
-    width: 140px;
-    height: 200px;
-  }
-  .user_sur_name p {
-    font-size: 18px;
-    margin-bottom: -10px;
-  }
-  .user_faculty p {
-    font-size: 13px;
-    margin-bottom: -16px; 
-  }
   .hearts {
     width: 370px;
-    height: 150px;
-    margin-top: 30px;
   }
   .hearts a {
-    width: 100px;
-    height: 80px;
     background-size: 120px;
   }
   .hearts b, .hearts p {
-    font-size: 11px;
     width: 120px;
-    text-align: center;
   }
 }
 
@@ -565,47 +353,16 @@ h2 {
   .container {
     width: 280px;
   }
-  .user {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 0px;
-  }
   .prof {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
     width: 290px;
-    padding: 20px 0px;
-    margin-bottom: 20px;
-  }
-  .prof_img img {
-    width: 140px;
-    height: 200px;
-  }
-  .user_sur_name p {
-    font-size: 18px;
-    margin-bottom: -10px;
-  }
-  .user_faculty p {
-    font-size: 13px;
-    margin-bottom: -16px; 
   }
   .hearts {
     width: 300px;
-    height: 150px;
-    margin-top: 30px;
   }
   .hearts a {
-    width: 100px;
-    height: 80px;
     background-size: 100px;
   }
   .hearts b, .hearts p {
-    font-size: 11px;
     width: 60px;
-    text-align: center;
   }
 }
