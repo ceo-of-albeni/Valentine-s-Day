@@ -17,7 +17,7 @@ function ProfilePage() {
   const [openYellowishModal, setOpenYellowishModal] = useState(false);
 
   useEffect(() => {
-    getOneUser(params.id);
+    getOneUser(params.first_name);
   }, []);
 
   const url = "https://api.thecatapi.com/v1/images/search";
@@ -51,14 +51,14 @@ function ProfilePage() {
         <div className={classes.user}>
           <div className={classes.user_sur_name}>
             <div className={classes.user_name}>
-              <p>{oneUser.name}</p>
+              <p>{oneUser.first_name}</p>
             </div>
             <div className={classes.user_sur}>
-              <p>{oneUser.surname}</p>
+              <p>{oneUser.last_name}</p>
             </div>
           </div>
           <div className={classes.user_faculty}>
-            <p>{oneUser.group}</p>
+            <p>{oneUser.group_name}</p>
           </div>
 
           <div className={classes.hearts}>

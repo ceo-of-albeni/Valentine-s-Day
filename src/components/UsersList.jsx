@@ -24,7 +24,7 @@ const UserList = ({ page, setPage }) => {
     <div className="d-flex flex-column align-items-center">
       <div className="d-flex flex-wrap justify-content-center min-vh-100">
         {currentData().map(item => (
-          <Cards item={item} key={item.id} />
+          <Cards item={item} key={item.name} />
         ))}
       </div>
       <Pagination count={count} page={page} setPage={setPage} />

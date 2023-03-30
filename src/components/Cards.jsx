@@ -16,7 +16,7 @@ const Cards = ({ item }) => {
     fetch(url)
       .then(res => res.json())
       .then(cats => {
-        console.log("Cats: ", cats);
+        // console.log("Cats: ", cats);
         const catUrl = cats[0].url;
         setCatUrl(catUrl);
       })
@@ -48,7 +48,7 @@ const Cards = ({ item }) => {
           <Card.Title
             id="cards_name"
             style={{ fontSize: "23px", fontWeight: "bold" }}>
-            {item.name} {item.surname}
+            {item.first_name} {item.last_name}
           </Card.Title>
           <Card.Text
             style={{
@@ -56,9 +56,9 @@ const Cards = ({ item }) => {
               fontSize: "15px",
               fontWeight: "bold",
             }}>
-            {item.group}
+            {item.group_name}
           </Card.Text>
-          <a className="send_btn" onClick={() => navigate(`/users/${item.id}`)}>
+          <a className="send_btn" onClick={() => navigate(`/users/${item.first_name}`)}>
             Send
           </a>
         </Card.Body>

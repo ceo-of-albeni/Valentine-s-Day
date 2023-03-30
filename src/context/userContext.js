@@ -21,23 +21,48 @@ function reducer(state = INIT_STATE, action) {
 }
 
 const UserContextProvider = ({ children }) => {
-  const API = "http://localhost:8000/users";
+  const API = "http://localhost/fatFreeTest/public";
 
   const [state, dispatch] = useReducer(reducer, INIT_STATE);
 
-  async function getUsers() {
-    const { data } = await axios(`${API}/${window.location.search}`);
-    dispatch({
-      type: "GET_USERS",
-      payload: data,
-    });
-  }
+  
+  // async function getUsers() {
+  //   const { data } = await fetch(`${API}/users`); //${window.location.search}
+  //   dispatch({
+  //     type: "GET_USERS",
+  //     payload: data,
+  //   });
+  // }
 
-  async function getOneUser(id) {
-    let res = await axios(`${API}/${id}`);
+  // async function getUsers() {
+  //   try {
+  //     const res = await axios(`${API}/users/${window.location.search}`);
+  //     dispatch({
+  //       type: "GET_USERS",
+  //       payload: res.data,
+  //     });
+  //     console.log(res.data);
+  //   } catch (err) {
+  //     console.log(err);
+  //   }
+  // }
+  async function getUsers () {
+    // return async function (dispatch) {
+        const response = await fetch(`${API}/users_heart`)
+        const data = await response.json()
+        dispatch({
+          type: "GET_USERS",
+          payload: data
+        })
+    // }
+}
+
+  async function getOneUser(name) {
+    let res = await fetch(`${API}/${name}`);
+    const data = await res.json()
     dispatch({
       type: "GET_ONE_USER",
-      payload: res.data,
+      payload: data,
     });
   }
 
