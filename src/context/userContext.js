@@ -27,7 +27,7 @@ const UserContextProvider = ({ children }) => {
 
   
   // async function getUsers() {
-  //   const { data } = await fetch(`${API}/users`); //${window.location.search}
+  //   const { data } = await fetch(${API}/users); //${window.location.search}
   //   dispatch({
   //     type: "GET_USERS",
   //     payload: data,
@@ -36,7 +36,7 @@ const UserContextProvider = ({ children }) => {
 
   // async function getUsers() {
   //   try {
-  //     const res = await axios(`${API}/users/${window.location.search}`);
+  //     const res = await axios(${API}/users/${window.location.search});
   //     dispatch({
   //       type: "GET_USERS",
   //       payload: res.data,
@@ -48,7 +48,7 @@ const UserContextProvider = ({ children }) => {
   // }
   async function getUsers () {
     // return async function (dispatch) {
-        const response = await fetch(`${API}/users_heart`)
+        const response = await fetch("${API}/users_heart")
         const data = await response.json()
         dispatch({
           type: "GET_USERS",
@@ -58,7 +58,7 @@ const UserContextProvider = ({ children }) => {
 }
 
   async function getOneUser(name) {
-    let res = await fetch(`${API}/${name}`);
+    let res = await fetch("${API}/${name}");
     const data = await res.json()
     dispatch({
       type: "GET_ONE_USER",

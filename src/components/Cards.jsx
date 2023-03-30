@@ -58,7 +58,7 @@ const Cards = ({ item }) => {
             }}>
             {item.group_name}
           </Card.Text>
-          <a className="send_btn" onClick={() => navigate(`/users/${item.first_name}`)}>
+          <a className="send_btn" onClick={() => navigate(" /users/${item.first_name}")}>
             Send
           </a>
         </Card.Body>
