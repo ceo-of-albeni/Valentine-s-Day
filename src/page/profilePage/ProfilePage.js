@@ -17,7 +17,7 @@ function ProfilePage() {
   const [openYellowishModal, setOpenYellowishModal] = useState(false);
 
   useEffect(() => {
-    getOneUser(params.first_name);
+    getOneUser(params.id);
   }, []);
 
   const url = "https://api.thecatapi.com/v1/images/search";
