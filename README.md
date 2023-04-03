@@ -38,3 +38,8 @@ http://localhost/fatFreeTest/public/heart (checks for email validity. checks whe
 <img width="1088" alt="Screenshot 2023-04-03 at 10 59 37 AM" src="https://user-images.githubusercontent.com/100344808/229415498-d2db2f36-a89c-4527-9821-930bba97fb70.png">
 <img width="1088" alt="Screenshot 2023-04-03 at 10 59 14 AM" src="https://user-images.githubusercontent.com/100344808/229415516-4e2deebb-56b8-4e16-b33b-382ceeb24fb5.png">
 
+#### we used common fatfree methods such as {load} to make our lives easier 
+<img width="711" alt="Screenshot 2023-04-03 at 11 04 19 AM" src="https://user-images.githubusercontent.com/100344808/229416096-9b263505-a83f-47a8-86f2-dc611ff96bc0.png">
+
+#### and last but not least, we implemented some basic preventions from SQL injections
+<img width="776" alt="Screenshot 2023-04-03 at 11 04 29 AM" src="https://user-images.githubusercontent.com/100344808/229416256-a7fbfc0e-efcc-402b-b466-ca61001d842d.png">
