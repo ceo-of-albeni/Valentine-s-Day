@@ -15,7 +15,7 @@ When you have found the right user, specify the color of the heart, your e-mail 
 
 #### The service is created for people who find it difficult to confess their love in real life, or just for those who would like to give a smile to others on this day :sparkles:	
 ****
-#### get fat-free core before trying out our api 
+### Get fat-free core before trying out the api 
 Command: composer require bcosca/fatfree-core
 
 #### API endpoints:
@@ -28,4 +28,13 @@ http://localhost/fatFreeTest/public/@name (replace @name with a username to sear
 POST
 
 http://localhost/fatFreeTest/public/heart (checks for email validity. checks whether the person sending has ever sent a letter to the receiver)
+
+### We used MySQL (local one). So if you wanna access to a database, change the credentials 
+<img width="482" alt="Screenshot 2023-04-03 at 10 54 15 AM" src="https://user-images.githubusercontent.com/100344808/229415072-efdb5319-ca1a-4441-8646-12631620bdc0.png">
+
+### We attached a database file, so you can download it and use it as it intended to. See the file above ^
+
+### The database structure is pretty simple 
+<img width="1088" alt="Screenshot 2023-04-03 at 10 59 37 AM" src="https://user-images.githubusercontent.com/100344808/229415498-d2db2f36-a89c-4527-9821-930bba97fb70.png">
+<img width="1088" alt="Screenshot 2023-04-03 at 10 59 14 AM" src="https://user-images.githubusercontent.com/100344808/229415516-4e2deebb-56b8-4e16-b33b-382ceeb24fb5.png">
 
